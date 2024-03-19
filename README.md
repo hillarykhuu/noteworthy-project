@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Our Style Guide
+We are going to do our best to follow this Style Guide from Airbnb
+Airbnb React/JSX Style Guide: [https://github.com/airbnb/javascript/tree/master/react#naming](https://github.com/airbnb/javascript/tree/master/react#naming)
