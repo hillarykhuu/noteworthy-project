@@ -4,6 +4,8 @@ import AboutUsPage from './pages/AboutUsPage';
 import FavoriteVideosPage from './pages/FavoriteVideosPage';
 import PeopleOfNotePage from './pages/PeopleOfNotePage';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
