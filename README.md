@@ -70,6 +70,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# Our Style Guide
+# Our Style Guide - LJ
 We are going to do our best to follow this Style Guide from Airbnb
 Airbnb React/JSX Style Guide: [https://github.com/airbnb/javascript/tree/master/react#naming](https://github.com/airbnb/javascript/tree/master/react#naming)
+
+
+# Packages to install - LJ
+### React Bootstrap
+npm install react-bootstrap bootstrap
+
+[https://react-bootstrap.netlify.app/docs/getting-started/introduction](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
+
+### Tailwind CSS
+#### Install Tailwind CSS
+Install tailwindcss via npm, and then run the init command to generate your tailwind.config.js file.
+
+Terminal:\
+npm install -D tailwindcss
+npx tailwindcss init
+
+#### Configure your template paths
+Add the paths to all of your template files in your tailwind.config.js file.
+
+tailwind.config.js:\
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+#### Add the Tailwind directives to your CSS
+Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+
+index.css:\
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#### Start your build process
+Run your build process with npm run start.
+
+Terminal:\
+npm run start
+
+[https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+
+### react-curved-text
+#### Installation
+npm install react-curved-text
