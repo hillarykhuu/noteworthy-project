@@ -9,22 +9,31 @@ export default function LandingPage() {
     <div className='bg-group-photo h-screen bg-cover'>
       <div className='fixed top-0 w-full'>
         <Header className='sticky top-0' />
-        <ReactCurvedText             
-            width={300}
-            height={300}
-            cx={250}
-            cy={150}
-            rx={100}
-            ry={100}
-            startOffset={0}
-            reversed={false}
-            text="Noteworthy"
-            textProps={{ style: { fontSize: 24 } }}
-            textPathProps={null}
-            tspanProps={null}
-            ellipseProps={null}
-            svgProps={null}/>
       </div>
+      <div className='flex justify-center items-center h-full'>
+
+        <ReactCurvedText 
+          className="absolute left-auto right-auto"
+          width={600}
+          height={400}
+          cx={300}
+          cy={250}
+          rx={250}
+          ry={150}
+          startOffset={75}
+          reversed={true}
+          text="NOTEWORTHY"
+          textProps={{ style: { fontSize: 72, fontWeight: "bold", fill: "white", filter: "drop-shadow( 3px 8px 4px rgba(0, 0, 0, .7))"} }}
+          textPathProps={null}
+          tspanProps={null}
+          ellipseProps={null}
+          svgProps={null}/>
+          <p className=' absolute left-auto right-auto text-7xl font-bold text-white drop-shadow-[3px_8px_4px_rgba(0,0,0,0.7)]'>
+            ACAPELLA
+          </p>
+      </div>
+
+      
     </div>
   )
 }

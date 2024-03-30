@@ -123,3 +123,7 @@ npm run start
 ### react-curved-text
 #### Installation
 npm install react-curved-text
+
+
+# SVG CSS Styles
+https://stackoverflow.com/questions/6088409/svg-drop-shadow-using-css3
