@@ -11,12 +11,6 @@ function App() {
     <div className="App">
       <LandingPage />
       <AboutUsPage />
-      <div className='h-96'>delete me!</div>
-      <div className='h-96'>delete me!</div>
-      <div className='h-96'>delete me!</div>
-      <div className='h-96'>delete me!</div>
-      <div className='h-96'>delete me!</div>
-      <div className='h-96'>delete me!</div>
       <FavoriteVideosPage />
       <PeopleOfNotePage />
     </div>

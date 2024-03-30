@@ -6,7 +6,7 @@ import ReactCurvedText from 'react-curved-text';
 
 export default function LandingPage() {
   return (
-    <div className='bg-group-photo h-screen bg-cover'>
+    <div className='bg-group-photo h-screen bg-cover' id='LandingDiv'>
       <div className='fixed top-0 w-full'>
         <Header className='sticky top-0' />
       </div>
@@ -29,7 +29,7 @@ export default function LandingPage() {
           ellipseProps={null}
           svgProps={null}/>
           <p className=' absolute left-auto right-auto text-7xl font-bold text-white drop-shadow-[3px_8px_4px_rgba(0,0,0,0.7)]'>
-            ACAPELLA
+            A CAPELLA
           </p>
       </div>
 
