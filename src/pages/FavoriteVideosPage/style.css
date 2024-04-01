@@ -4,7 +4,7 @@
 
 #center-carousel {
     margin: auto;
-    /* width: 50%; */
+    width: 45%;
     border: 3px solid black;
     padding: 10px;
 }
@@ -13,9 +13,8 @@
     text-align: center;
 }
 
-body { background-color: #24a3ae; }
+/* body { background-color: #24a3ae; } */
 
 #carousel-heading {
-    background-color: white;
     color: aliceblue;
 }
