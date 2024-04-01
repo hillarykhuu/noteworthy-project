@@ -1,9 +1,15 @@
 import React from 'react'
 import './style.css'
+
+import Button from 'react-bootstrap/Button';
+
 import GroupPhotoForest from './../../images/group_photo_forest.png'
 import GroupPhotoVest from './../../images/group_photo_vest.png'
 import STCityHall from './../../images/Noteworthy-at-ST-City-Hall 1.png'
-import Button from 'react-bootstrap/Button';
+import InstaImage1 from './../../images/insta-image-1.png'
+import InstaImage2 from './../../images/insta-image-2.png'
+import InstaImage3 from './../../images/insta-image-3.png'
+import InstaImage4 from './../../images/insta-image-4.png'
 
 export default function AboutUsPage() {
   return (
@@ -42,6 +48,12 @@ export default function AboutUsPage() {
 
         <div className='Section'>
           <Button variant="light" size='md' style={{color: "#05789F", outline: "solid", outlineColor: "black", outlineWidth: "2px"}} href="">Follow Us</Button>
+          <div className='InstaImages'> 
+            <img className='InstaImage' src={InstaImage1} alt = ""/>
+            <img className='InstaImage' src={InstaImage2} alt = ""/>
+            <img className='InstaImage' src={InstaImage3} alt = ""/>
+            <img className='InstaImage' src={InstaImage4} alt = ""/>
+          </div>
         </div>     
       </div>
     </div>

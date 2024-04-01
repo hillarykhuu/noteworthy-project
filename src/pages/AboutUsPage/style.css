@@ -38,3 +38,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+.InstaImages {
+    padding: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2%;
+    column-gap: 2%;
+}
+
+.InstaImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.InstaImage:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+}
