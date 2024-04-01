@@ -1,16 +1,20 @@
 import React from 'react'
+import './style.css'
+import GroupPhotoForest from './../../images/group_photo_forest.png'
+import GroupPhotoVest from './../../images/group_photo_vest.png'
+import STCityHall from './../../images/Noteworthy-at-ST-City-Hall 1.png'
+import Button from 'react-bootstrap/Button';
 
 export default function AboutUsPage() {
   return (
-    <div className='h-screen' id='AboutUsDiv'> 
+    <div className='' id='AboutUsDiv'> 
       {/* Header */}
-      <p>About Us</p>
+      <h1>About Us</h1>
 
       {/* Description */}
-      <div>
-        <img />
-
-        <p className='text-center'>
+      <div className='AboutUsDescription'>
+        <img src={GroupPhotoForest} alt='Group Photo in the Forest' width={256} height={256} className='AboutUsImg'/>
+        <p className='AboutUsParagraph'>
           <span style={{ whiteSpace: 'pre-line' }} >
             {`We’re a lower-voices a cappella group known for our fun performances and fresh takes on popular songs! It always feels sunny when we perform, and not just because of our golden vests!
             
@@ -19,24 +23,27 @@ export default function AboutUsPage() {
           </span>
         </p>
 
-        <img />
+        <img src={GroupPhotoVest} alt='Group Photo in Vests' width={256} height={256} className='AboutUsImg'/>
       </div>
 
 
-      <div>
-        <div>
-          Events
+      <div className='AboutUsSections'>
+        <div className='Section'>
+          <Button variant="light" size='md' style={{color: "#05789F", outline: "solid", outlineColor: "black", outlineWidth: "2px"}} href="">Events</Button>
+          <p>We have events that you should check out!</p>
+          {/* Add another carousel here! */}
         </div>
-        <div>
-          Hire Us
-        
+
+        <div className='Section'>
+          <Button variant="light" size='md' style={{color: "#05789F", outline: "solid", outlineColor: "black", outlineWidth: "2px"}} href="">Hire Us</Button>
+          <p>You should give us money and we sing!</p>
+          <img src={STCityHall} alt='Noteworthy-at-ST-City-Hall' className='SectionImg'/>
         </div>
-        <div>
-          Follow Us
+
+        <div className='Section'>
+          <Button variant="light" size='md' style={{color: "#05789F", outline: "solid", outlineColor: "black", outlineWidth: "2px"}} href="">Follow Us</Button>
         </div>     
       </div>
-      
-
     </div>
   )
 }
