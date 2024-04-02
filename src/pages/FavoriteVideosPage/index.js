@@ -10,7 +10,7 @@ import fsnote3 from "../../images/fsnote3.png"
 
 export default function FavoriteVideosPage() {
   return (
-    <div id='FavoriteVideosDiv'>
+    <div id='OurFavoriteVideosDiv'>
       <h1 class='center'>Our Favorite Videos</h1>
       <Carousel data-bs-theme="dark" id = 'center-carousel'>
         <Carousel.Item class = 'carousel-video-item'>

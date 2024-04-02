@@ -1,6 +1,8 @@
-#FavoriteVideosDiv {
+#OurFavoriteVideosDiv {
     height: 100vh;
+    padding-top: 4rem;
 }
+
 
 #center-carousel {
     margin: auto;
