@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className='flex flex-row justify-between p-2'>
       <a href="#LandingDiv">
-        <img src={logo} width={128} height={128} alt="Noteworthy Bear Logo" className='bg-white/50 rounded-3xl p-1'/>
+        <img src={logo} width={128} height={128} alt="Noteworthy Bear Logo" className='bg-slate-300/50 rounded-3xl p-1'/>
       </a>
 
       <div className='flex items-start gap-3'>

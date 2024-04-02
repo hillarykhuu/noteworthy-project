@@ -7,7 +7,7 @@ import ReactCurvedText from 'react-curved-text';
 export default function LandingPage() {
   return (
     <div className='bg-group-photo h-screen bg-cover' id='LandingDiv'>
-      <div className='fixed top-0 w-full'>
+      <div className='fixed top-0 w-full z-[1000]'>
         <Header className='sticky top-0' />
       </div>
       <div className='flex justify-center items-center h-full'>
