@@ -13,7 +13,7 @@ export default function FavoriteVideosPage() {
     <div id='FavoriteVideosDiv'>
       <h1 class='center'>Our Favorite Videos</h1>
       <Carousel data-bs-theme="dark" id = 'center-carousel'>
-        <Carousel.Item>
+        <Carousel.Item class = 'carousel-video-item'>
           {/* <img
             className="d-block w-100"
             src={fsnote1}
@@ -25,23 +25,24 @@ export default function FavoriteVideosPage() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item class = 'carousel-video-item'>
           {/* <img
             className="d-block w-100"
             src={fsnote2}
             alt="Second slide"
           /> */}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QHqUXFsKwZQ?si=mZsK5aTqHPPB3jNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          <Carousel.Caption>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/QHqUXFsKwZQ?si=mZsK5aTqHPPB3jNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          <Carousel.Caption>
             <h5 id='carousel-heading'> I'm Just Ken</h5>
             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item class = 'carousel-video-item'>
           {/* <img
             className="d-block w-100"
             src={fsnote3}
             alt="Third slide"
           /> */}
+          
           <iframe width="560" height="315" src="https://www.youtube.com/embed/cDjY-1WuB3o?si=A_7nkO9-fkxPcf4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <Carousel.Caption>
             <h5 id='carousel-heading'>A Nightingale Sang in Berkeley Square</h5>
