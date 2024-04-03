@@ -64,3 +64,12 @@
 #center-carousel {
     width: 100%;
 }
+
+.SectionImg {
+    transition: width 2s, height 2s, transform 2s;
+}
+.SectionImg:hover {
+    /* width: 300px;
+    height: 300px; */
+    transform: rotate(360deg);
+}

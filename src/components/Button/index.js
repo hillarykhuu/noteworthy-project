@@ -5,3 +5,9 @@ export default function Button() {
     <div>Button</div>
   )
 }
+
+function smoothScroll(){
+  document.querySelector('.your_class or #id here').scrollIntoView({
+      behavior: 'smooth'
+  });
+}

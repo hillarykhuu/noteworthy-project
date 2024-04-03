@@ -15,7 +15,6 @@ import InstaImage4 from './../../images/insta-image-4.png'
 import CarouselImage1 from './../../images/carouselimage1.png'
 import CarouselImage2 from './../../images/carouselimage2.png'
 import CarouselImage3 from './../../images/carouselimage3.jpg'
-// import CarouselImage3 from './../../images/carouselimage3.png'
 
 export default function AboutUsPage() {
   return (
