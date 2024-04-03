@@ -1,4 +1,20 @@
+.CardImageURL {
+    height: 80%;
+}
+
+.CardImage {
+    height: 100%;
+    object-fit: cover;
+}
+
 .CardImage:hover {
     opacity: 0.5;
     transition: .5s ease;
+}
+
+.CardText {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
