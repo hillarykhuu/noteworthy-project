@@ -1,6 +1,5 @@
 import React from 'react'
 import Modal  from 'react-bootstrap/Modal';
-import Image from '../../images/members/AmandaSakimura.png'
 
 // import './style.css'
 import { Button } from 'react-bootstrap';

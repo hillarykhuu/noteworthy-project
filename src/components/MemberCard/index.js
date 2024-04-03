@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import Image from '../../images/members/AmandaSakimura.png'
+// import Image from '../../images/members/AmandaSakimura.png'
 
 import './style.css'
 
